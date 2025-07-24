@@ -1,41 +1,32 @@
-// console.log("Hello world...");
-// console.info("Information function....");
-// console.warn("Warning function....");
-// console.error("Error function....");
+// console.log("hello world");
+// console.info("information function...");
+// console.warn("warning function...");
+// console.error("error function...");
 
-
-// Datatype : number , string , boolean , undefined , null
+// Datatype : number , string , boolean , undefined , object
 
 
 a = 10;
 console.log("value of a = ",a);
 console.log("type of a = ",typeof(a));
 
-
-b = 12.55;
+b = 10.5;
 console.log("value of b = ",b);
 console.log("type of b = ",typeof(b));
 
+c = "shree ram";
+console.log("value of c = ",c);
+console.log("type of c = ",typeof(c));
 
-str = "ram";
-console.log("value of str = ",str);
-console.log("type of str = ",typeof(str));
+isAlive = true;
+console.log("value of isAlive = ",isAlive);
+console.log("type of isAlive = ",typeof(isAlive));
 
-isMarried = true;
-console.log("value of isMarried = ",isMarried);
-console.log("type of isMarried = ",typeof isMarried);
-
-let x;
-console.log("value of x = ",x);
-console.log("type of x = ",typeof x);
-
-let y = null;
-console.log("value of y = ",y);
-console.log("type of y = ",typeof y);
+var e;
+console.log("value of e = ",e);
+console.log("type of e = ",typeof(e));
 
 
-
-abc = 16;
-console.log("value of abc = ",abc);
-console.log("value of abc = " + abc);
-
+var f = null;
+console.log("value of f = ",f);
+console.log("type of f = ",typeof(f));
