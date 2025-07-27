@@ -83,9 +83,9 @@
 //     console.log("B is greater");
 // }
 
-var a = 100;
-var b = 99;
-var c = 51;
+// var a = 100;
+// var b = 99;
+// var c = 51;
 
 // if(a > b && a > c){
 //     console.log("A is greater");
@@ -97,19 +97,39 @@ var c = 51;
 //     console.log("C is greater");
 // }
 
-if(a > b){
-    if(a > c){
-        console.log("A is greater");
-    }
-    else{
-        console.log("C is greater");
-    }
+// if(a > b){
+//     if(a > c){
+//         console.log("A is greater");
+//     }
+//     else{
+//         console.log("C is greater");
+//     }
+// }
+// else{
+//     if(b > c){
+//         console.log("B is greater");
+//     }
+//     else{
+//         console.log("C is greater");
+//     }
+// }
+
+
+let a = parseInt(prompt("Enter first number"));
+let b = parseInt(prompt("Enter second number"));
+let c = parseInt(prompt("Enter third number"));
+
+let sum = 0;
+
+if(a > 35){
+    // sum += a;
+    sum = sum + a;
 }
-else{
-    if(b > c){
-        console.log("B is greater");
-    }
-    else{
-        console.log("C is greater");
-    }
+if(b > 35){
+    sum += b;
 }
+if(c > 35){
+    sum += c;
+}
+console.log(sum);
+``
