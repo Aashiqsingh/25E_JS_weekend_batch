@@ -1,135 +1,59 @@
-// var a = 24;
-// var b = 26;
-// var c = 29;
+// a = 18;
+// b = 17;
+// c = 16;
 
 
-
-// if(a > b)
-// {
+// if(a > b){
 //     if(a > c){
-//         console.log("A is greater");
+//         console.log("a is greater")
 //     }
 //     else{
-//         console.log("C is greater");
+//         console.log("c is greater")
 //     }
 // }
 // else{
 //     if(b > c){
-//         console.log("B is greater");
+//         console.log("b is greater")
 //     }
 //     else{
-//         console.log("C is greater");
+//         console.log("c is greater")
 //     }
 // }
-
-
-// let isAlive = false;
-// let age = 17;
-
-// if(isAlive){
-//     if(age > 18){
-//         console.log("You are eligible to vote");
-//     }
-//     else{
-//         console.log("You are not eligible to vote");
-//     }
-// }
-// else{
-//     console.log("Sorry, you are not alive");
-// }
-
-
-
-
-
-
-
 
 
 
 
 
 // if(a > b){
-//     console.log("A is gretter");
-    
-// }else{
-//     console.log("B is greater");
+//     alert("a is greater")
+// }
+// else{
+//     alert("b is greater")
 // }
 
 
-// logical operator : && , || , !
-
 // if(a > b && a > c){
-//     console.log("A is greater");
+//     console.log("a is gretter");
     
 // }
 // else if(b > a && b > c){
-//     console.log("B is greater");
+//     console.log("b is greater");
 // }
 // else{
-//     console.log("C is greater");
+//     console.log("c is greater");
 // }
 
-// var a = parseInt(prompt("Enter a number"));
-// var b = parseInt(prompt("Enter another number"));
+// let age = 16;
+// let isAlive = true;
 
-
-// console.log(a+b);
-
-// if(a > b){
-//     console.log("A is greater");
-// }
-// else{
-//     console.log("B is greater");
-// }
-
-// var a = 100;
-// var b = 99;
-// var c = 51;
-
-// if(a > b && a > c){
-//     console.log("A is greater");
-// }
-// else if(b > c && b > a){
-//     console.log("B is greater");
-// }
-// else{
-//     console.log("C is greater");
-// }
-
-// if(a > b){
-//     if(a > c){
-//         console.log("A is greater");
+// if(isAlive){
+//     if(age > 18){
+//         console.log("you are eligible for vote");
 //     }
 //     else{
-//         console.log("C is greater");
+//         console.log("you are not eligible for vote");
 //     }
 // }
 // else{
-//     if(b > c){
-//         console.log("B is greater");
-//     }
-//     else{
-//         console.log("C is greater");
-//     }
+//     alert("you are dead");
 // }
-
-
-let a = parseInt(prompt("Enter first number"));
-let b = parseInt(prompt("Enter second number"));
-let c = parseInt(prompt("Enter third number"));
-
-let sum = 0;
-
-if(a > 35){
-    // sum += a;
-    sum = sum + a;
-}
-if(b > 35){
-    sum += b;
-}
-if(c > 35){
-    sum += c;
-}
-console.log(sum);
-``

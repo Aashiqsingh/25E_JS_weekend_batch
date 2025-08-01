@@ -22,12 +22,27 @@
 
 
 // console.log(4**3);
-var a = "10";
-var b = "10";
+// var a = "10";
+// var b = "10";
 
 
-console.log(a == b);
-console.log(a === b);
-console.log(a !== b);
+// console.log(a == b);
+// console.log(a === b);
+// console.log(a !== b);
+
+
+// console.log(4**3);
+
+// a = "12";
+// b = "12";
+
+// console.log(a == b);
+// console.log(a === b);
+// console.log(a !== b);
+
+
+
+console.log(5/4);
+console.log(5%4);
 
 
