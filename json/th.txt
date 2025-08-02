@@ -1,0 +1,14 @@
+JSON --> javascript object notation
+
+
+key -- value pair 
+
+let student = {
+    name:"rahul",
+    age:20,
+    address:"delhi",
+    email:"rahul@gmail.com",
+    mobile:82389323092,
+}
+
+type -- object 
