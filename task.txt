@@ -1,0 +1,4 @@
+Area of cirlce
+Area of triangle
+Area of square
+
