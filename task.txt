@@ -2,3 +2,58 @@ Area of cirlce
 Area of triangle
 Area of square
 
+
+
+Atm :
+let accno : 8653472
+let userpass : 6354
+
+fun chekbal(){
+    let avlbal = 40000
+    return avlbal
+}
+
+fun withdraw(cb){
+    Enter amount : 50000
+    let x = cb()
+
+    if(amount < x){
+        succeffully withdrwa 
+
+        after withdrwa current bal : x - amount
+    }
+    else{
+        insufficient balance
+    }
+}
+func deposit(cb){
+    Enter amount : 10000
+
+    let x = cb()
+
+    message : deposit succeffully
+    after deposit current bal : x + amount
+}
+Do you want to enter in atm?
+yes{
+    Enter account number
+    Enter password
+
+    password and accou number match{
+        Welcome to atm
+        1. checkbal
+        2. withdraw
+            - withdrwa(checkbal)
+        3. deposit
+            - deposit(checkbal)
+    }else{
+        Incorrect password or account number
+    }
+}
+no{
+    Thankyou for visiting atm
+}
+
+
+
+alert("after deposit current bal : " + (x + amount))
