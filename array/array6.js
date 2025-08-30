@@ -8,17 +8,17 @@ let languages = ["hindi","english","bengali","marathi","gujarati","french","tami
 // console.log(ans);
 
 
-// const deleteLang = (langName)=>{
+const deleteLang = (langName)=>{
 
-//     let ans = languages.filter((lang)=>{
-//         return lang != langName
-//     })
+    let ans = languages.filter((lang)=>{
+        return lang != langName
+    })
 
-//     return ans;
-// }
+    return ans;
+}
 
-// let x = deleteLang("marathi")
-// console.log(x);
+let x = deleteLang("marathi")
+console.log(x);
 
 
 
@@ -43,6 +43,6 @@ let languages = ["hindi","english","bengali","marathi","gujarati","french","tami
 // console.log(x);
 
 
-const deleteLang = (langName)=> languages.filter((lang)=> lang != langName)    
-let x = deleteLang("bengali")
-console.log(x);
+// const deleteLang = (langName)=> languages.filter((lang)=> lang != langName)    
+// let x = deleteLang("bengali")
+// console.log(x);
