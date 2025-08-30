@@ -75,8 +75,8 @@ var departments = [
                 age:39,
                 gender:"female",
                 isActive:true,
-                isMarried:false,
-                child:0
+                isMarried:true,
+                child:1
             },
             {
                 name:"sunit",
@@ -90,6 +90,25 @@ var departments = [
         ]
     },
 ]
+
+// let ans = departments.map((depart)=> depart.employees.reduce((count,emp)=> count + emp.child,0)).reduce((total,emp)=> total + emp,0)
+// console.log(ans);
+
+// let sum = 0
+// departments.forEach((depart)=>{
+//     depart.employees.forEach((emp)=>{
+//         if(emp.child > 0){
+//             sum = sum + emp.child
+//         }
+//     })
+// })
+
+
+// console.log(sum);
+
+
+
+
 
 // let ans = departments.find((depart)=>{
 //     return depart.name == "Finance"
