@@ -133,12 +133,59 @@ var company = [
 
 
 // 1.  Find the total number of employees in all companies.
+
+// let ans = company.reduce((count,comp)=>{
+//     return count + comp.employees.length
+// },0)
+// console.log(ans);
+
 // 2. Find the company where the employee named "riya" works.
+
+// let ans = company.find((comp)=>{
+//     return comp.employees.find((emp)=>{
+//         return emp.name === "riya"
+//     })
+// })
+
+// console.log(ans);
+
 // 3. Calculate the average salary of employees across all companies.
+// let ans = company.map((comp)=> comp.employees.reduce((total,emp)=> total + emp.salary/3,0))
+// console.log(ans);
+
 // 4. Find the names of all employees who are married.
+// let ans = company.map((comp)=> comp.employees.filter((emp)=> emp.IsMarried == true))
+// console.log(ans);
+
+// company.forEach((comp)=>{
+//     comp.employees.forEach((emp)=>{
+//         if(emp.IsMarried == true){
+//             console.log(emp.name);
+//         }
+//     })
+// })
+
 // 5. Count the total number of children across all employees
+
+// let ans = company.map((comp)=> comp.employees.reduce((count,emp)=> count + emp.child,0)).reduce((count,emp)=> count + emp,0)
+// console.log(ans);
+
 
 // 7. List all female employees.
 // 8. Count how many employees are not married.
+
+// let ans = company.reduce((count,comp)=> count + comp.employees.filter((emp)=> emp.IsMarried == false).length,0)
+// console.log(ans);
+
 // 9. Find the email addresses of all employees earning more than 30,000.
+
+// var ans = company.map((cmp) => {
+//     return cmp.employees.filter((emp) => emp.salary > 30000).map((emp) => emp.email);
+// });
+// console.log(ans);
+
 // 10. Identify the total number of employees for each company.
+
+let ans = company.map((comp)=> comp.employees.reduce((count,emp)=> count+1,0))
+console.log(ans);
+
