@@ -129,6 +129,15 @@ var company = [
 // Find the position of an employee named "Emily Davis".
 // Search for "Emily Davis" in the employees array and display her position.
 
+let ans = company.find((comp)=>{
+  return comp.employees.find((emp)=>{
+    return emp.name === "Emily Davis"
+  })
+}).employees.find((emp)=> emp.name === "Emily Davis").position
+
+console.log(ans);
+
+
 // List all unique positions held by employees.
 // Extract and list all unique values from the position fields across all employees.
 
