@@ -129,13 +129,13 @@ var company = [
 // Find the position of an employee named "Emily Davis".
 // Search for "Emily Davis" in the employees array and display her position.
 
-let ans = company.find((comp)=>{
-  return comp.employees.find((emp)=>{
-    return emp.name === "Emily Davis"
-  })
-}).employees.find((emp)=> emp.name === "Emily Davis").position
+// let ans = company.find((comp)=>{
+//   return comp.employees.find((emp)=>{
+//     return emp.name === "Emily Davis"
+//   })
+// }).employees.find((emp)=> emp.name === "Emily Davis").position
 
-console.log(ans);
+// console.log(ans);
 
 
 // List all unique positions held by employees.
@@ -143,6 +143,11 @@ console.log(ans);
 
 // Find which company "Liam Wilson" works for.
 // Search for "Liam Wilson" in the employees arrays and display the companyName he belongs to.
+
+let x = company.find((comp)=> comp.employees.find((emp)=> emp.name === "Liam Wilson")).companyname
+console.log(x);
+
+
 
 // Calculate the average salary of employees in "Tech Solutions".
 // Sum up the salary values of employees in "Tech Solutions" and divide by the number of employees in that company.
