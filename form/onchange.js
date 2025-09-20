@@ -15,4 +15,6 @@ const changeRadius = ()=>{
 
     let box = document.getElementById("box")
     box.style.borderRadius = radius.value
+
+    box.style.backgroundImage = `url('$()')`
 }
