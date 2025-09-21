@@ -57,3 +57,9 @@ no{
 
 
 alert("after deposit current bal : " + (x + amount))
+
+
+
+----------------------------------------------
+
+singup page --> Login page -> email sent (otp genrate) --> verification otp --> verify succefully ? 
