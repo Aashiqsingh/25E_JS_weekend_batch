@@ -1,0 +1,19 @@
+Promise --> pending(resolve,reject)
+
+Promise -- class 
+
+1. synchronous -- bydefault javascript
+
+2. asynchronous 
+
+
+print ("start")
+
+print("This is the code) -- 2min
+
+print("End")
+
+1. block sync 
+    - then catch
+2. function sync
+    - aysnc await 
