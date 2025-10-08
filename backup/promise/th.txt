@@ -1,0 +1,13 @@
+Promise  -- pending(fullfilled/reject)
+
+Promise -- class -- object 
+
+
+javascript bydefault -- synchronous 
+
+1. synchronous
+2. asynchronous 
+     - block sync 
+        - then catch
+     - function sync
+        - async await 
