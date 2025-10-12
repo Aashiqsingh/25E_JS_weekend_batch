@@ -1,0 +1,8 @@
+API :- Application Programming Interface 
+
+Types Apis:
+1. get api 
+2. post api
+3. delete api 
+4. put api
+5. patch api -- partial update 
