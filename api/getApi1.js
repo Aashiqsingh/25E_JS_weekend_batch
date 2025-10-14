@@ -39,6 +39,4 @@ const getData = async()=>{
         avatarTd.appendChild(img);
         document.getElementById("tbdoy").appendChild(tr);
     })
-
-    
 }
